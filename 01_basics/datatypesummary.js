@@ -36,3 +36,40 @@ const myFunction = function() {
     console.log("puneet chauhan")
     
 }
+
+
+//***************************Stack and Heap***************************************
+
+//Stack(primitive)    and   heap(non-primitive)
+
+//Means in stack we have give the copy of data not actual value
+//so change in stack are in copy value not original value....
+//whereas in heap we have the reference of original value
+//so change occur in original value
+
+//*************For example**************
+let userOne ={
+
+    email :"pc3633433@gmail.com",
+    Upi  : "abc.ybl"
+}
+ 
+let userTwo = userOne;
+ userTwo.email = "him@135236.com"//in object we can access any value by .(dot)and name of objet
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+//****************Example of stack********************
+
+let userName = "puneet singh chauhan"
+
+let userThree = userName;
+userThree = "jatin singh"
+
+console.log(userName);
+console.log(userThree);
+
+
