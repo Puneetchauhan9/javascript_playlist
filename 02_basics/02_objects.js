@@ -61,4 +61,34 @@ const obj2 = { 1: "a" , 2 : "b"}
 // TO CHECK THEIR IS AN OBJECT EXISTS OR NOT BY PROPERTY "HAS OWN PROPERTY"
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'))
-console.log(tinderUser.hasOwnProperty('isLoggedin'))
+// console.log(tinderUser.hasOwnProperty('isLoggedin'))
+
+
+//************* ********* destruucturing of an object*************************************
+
+const course = {
+      courseName :"js_playlist",
+      Price :599,
+      courseInstructor :"Hitesh"
+}
+
+//so i want to call name of course
+// console.log(course.courseName); // but its write method but we use destructuring
+
+const {courseName:Name} = course //this is destructurinng
+
+//console.log(courseName)
+// console.log(Name);
+
+// { 
+//     "name": "puneet",
+//     "coursename": "js_playlist", {}inka matlab he json he 
+//but isme keys bhi string and value to string ha eee
+//     "price": "free"
+// }
+
+// [
+//   {},
+//   {},
+//   {}
+// ]   
