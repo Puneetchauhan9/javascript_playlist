@@ -16,4 +16,12 @@
 //     console.log(name);
 //  }) ('puneet chuahan')   iife on arrow function....
 
+(function chai(){     
+         console.log('puneet chauhan');
+     }) ();
+
+// we execute function with name or rrow function so it occurs error so we add semicolon to remove error
+  ((name)=> {
+    console.log(name);
+  }) ('puneet chuahan1') 
 
