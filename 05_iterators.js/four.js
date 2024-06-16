@@ -10,7 +10,7 @@ const myObject = {
 for (const key in myObject) {
     
     //console.log(`${key} is ${myObject[key]}`); // this the method to iterate object... the loop is forin loop..
-    
+
 } // for object
 
 const arr = ['js','ruby','py','swift','sql','c++']
@@ -28,6 +28,7 @@ for (const index in arr) {
  for (const key in map) {
    console.log(key);
  }
+ 
 
 
  // basic differnce between forin and forof loop  for loop picks directly keys value but for in picks keys...
