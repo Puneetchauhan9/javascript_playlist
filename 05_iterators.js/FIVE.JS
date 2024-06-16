@@ -43,3 +43,5 @@ const arr= [
 arr.forEach( (items)=>{
   console.log(items.languageFilename);
 })
+
+console.log(arr)
